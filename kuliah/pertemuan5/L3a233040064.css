@@ -1,0 +1,21 @@
+body {
+    background-color:  lightgreen;
+}
+h1 {
+    font-size: 50px;
+    text-align: center;
+}
+p {
+    color: blue;
+    font-size: 20px;
+    font-weight: bold;
+}
+.warnaMerah {
+    color: red;
+}
+.rataKanan {
+    text-align: right;
+}
+.rataTengah {
+    color: red;
+}
