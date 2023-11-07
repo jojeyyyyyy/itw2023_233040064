@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+        .jojey-galery {
+            display: flex;
+            height: 20rem;
+            gap: 1rem
+        }
+        
+        .jojey-galery > div{
+            flex: 1;
+            border-radius: 1rem;
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: auto 100%;
+            transition: all .8s cubic-bezier(.25, .4, .45, 1.4);
+        }
+
+        .jojey-galery > div:hover {
+            flex: 5;
+        }
+
+        h1 {
+            text-align: center;
+            background-color: azure;
+        }
+
+        body{
+            background-image: url('jo8.jpg');
+        }
+        
+</style>
+<body>
+    <H1>JOJEY GALERY</H1>
+    <div class="jojey-galery">
+        <div style="background-image: url('jo1.jpg');"></div>
+        <div style="background-image: url('jo2.jpg');"></div>
+        <div style="background-image: url('jo3.jpg');"></div>
+        <div style="background-image: url('jo4.jpg');"></div>
+        <div style="background-image: url('jo5.jpg');"></div>
+        <div style="background-image: url('jo6.jpg');"></div>
+        <div style="background-image: url('jo7.jpg');"></div>
+        <div style="background-image: url('jo9.jpg');"></div>
+        <div style="background-image: url('jo10.jpg');"></div>
+        <div style="background-image: url('jo11.jpg');"></div>
+
+    </div>
+
+</body>
+</html>
